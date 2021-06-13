@@ -208,6 +208,7 @@ h3 {
   height: 75%;
   background-image: url("/images/xbox.jpg");
   background-size: cover;
+  margin-bottom: 20px;
 }
 
 .fortine {
@@ -215,10 +216,12 @@ h3 {
   height: 75%;
   background-image: url("/images/fortnite.jpg");
   background-size: cover;
+  margin-bottom: 20px;
 }
 .cup {
   width: 100%;
   height: 75%;
   background-image: url("/images/cuphead.jpg");
   background-size: cover;
+  margin-bottom: 20px;
 }
