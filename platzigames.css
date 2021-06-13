@@ -1,0 +1,226 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  background-color: #2b1719;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+.intro {
+  width: 1340px;
+  height: 650px;
+  padding: 10px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("/images/intro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 8px solid #fff;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(255, 255, 255, 0);
+          box-shadow: 0px 5px 15px 0px rgba(255, 255, 255, 0);
+}
+.intro .intro__imagen {
+  width: 1320px;
+  position: absolute;
+}
+.intro .intro__contenido {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 156px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+}
+.intro .intro__categoria {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.intro .intro__titulo {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.intro .intro__autor {
+  width: 150px;
+  margin: 0 auto;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  right: 0;
+  
+}
+.img-autor {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url("/images/avatar.jpg");
+  margin-left: 25%;
+}
+.intro .intro__autor img {
+  width: 60px;
+  height: 50px;
+  float: left;
+  padding-right: 10px;
+  border-radius: 10em;
+}
+.intro .intro__autor span {
+  display: inline-block;
+}
+.intro .intro__autor .intro__autor-titulo {
+  color: rgba(255, 255, 255, 0.5);
+}
+.intro .intro__autor .intro__autor-nombre {
+  color: rgba(255, 255, 255, 0.5);
+}
+.articulo--principal {
+  max-width: 660px;
+  margin: 0 auto;
+}
+.articulo--principal .articulo--principal__intro {
+  font-size: 26px;
+}
+.articulo--principal h2 {
+  margin: 40px 0 40px 0;
+  font-size: 50px;
+  text-align: center;
+}
+.articulo--principal h2 {
+  color: #e6d8f1;
+}
+.articulo--principal h3 {
+  color: #b37df0;
+}
+.contenedor--cajas {
+  width: 1400px;
+  height: 550px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.caja {
+  max-width: 430px;
+  margin-bottom: 40px;
+  background-color: #2b1719;
+}
+.caja__contenido {
+  padding: 5px;
+  background-color: #2b1719;
+}
+.caja span {
+  color: #e6d8f1;
+}
+.caja a {
+  text-decoration: none;
+  color: #b37df0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.intro {
+  width: 1340px;
+  height: 650px;
+  padding: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+.intro .intro__imagen {
+  width: 1320px;
+  position: absolute;
+}
+.intro .intro__imagen img {
+  width: 100%;
+  height: 624px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.intro .intro__contenido {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 156px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+}
+.intro .intro__categoria {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+.intro .intro__titulo {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.intro .intro__autor {
+  width: 150px;
+  margin: 0 auto;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+.intro .intro__autor img {
+  width: 60px;
+  height: 50px;
+  float: left;
+  padding-right: 10px;
+  border-radius: 10em;
+}
+.intro .intro__autor span {
+  display: inline-block;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.xbox {
+  width: 100%;
+  height: 75%;
+  background-image: url("/images/xbox.jpg");
+  background-size: cover;
+}
+
+.fortine {
+  width: 100%;
+  height: 75%;
+  background-image: url("/images/fortnite.jpg");
+  background-size: cover;
+}
+.cup {
+  width: 100%;
+  height: 75%;
+  background-image: url("/images/cuphead.jpg");
+  background-size: cover;
+}
